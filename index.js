@@ -19,7 +19,7 @@ app.use(favoritesRoutes); // Préfixe "/favorites" pour plus de précision
 
 // Route 404 pour les requêtes non trouvées
 app.all("*", (req, res) => {
-  res.status(404).json({ message: "Not Found" });
+  res.status(404).json({ message: "GAME OVER!!! YOU LOSE" });
 });
 
 // Démarrage du serveur
